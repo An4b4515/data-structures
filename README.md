@@ -13,11 +13,11 @@ You can generate this file yourself in **UNIX** by using the following command (
 
 `find ./algorithms ./dataStructures -type f -iname "*.java" >sources`
 
-This makes the compilation process easier by not explicitly stating all file paths.
-
 After that, you can compile the program as follows:
 
 `javac @sources -d ./bin`
+
+This makes the compilation process easier by not explicitly stating all file paths.
 
 
 # JAR File
